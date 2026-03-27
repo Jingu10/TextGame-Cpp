@@ -34,7 +34,7 @@
 ## 🚀 실행 방법 (How to Run)
 1. 저장소를 클론합니다.
    ```bash
-   git clone https://github.com/Jingu10/TextGame-C++.git
+   git clone https://github.com/Jingu10/TextGame-Cpp.git
    
 2. Visual Studio에서 .sln 파일을 열거나, C++ 컴파일러를 이용해 main.cpp를 포함한 모든 소스 파일을 빌드합니다.
 
