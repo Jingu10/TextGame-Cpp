@@ -1,0 +1,35 @@
+# Visual Studio 관련 임시/캐시 파일
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.ncb
+*.sdf
+*.opensdf
+*.db
+
+# 빌드 결과물 (폴더)
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]uild/
+[Bb]in/
+[Oo]bj/
+
+# 컴파일된 오브젝트 및 실행 파일
+*.exe
+*.dll
+*.lib
+*.obj
+*.o
+*.ilk
+*.exp
+*.pdb
+*.idb
+*.tlog
+*.lastbuildstate
+
+# 로그 파일
+*.log
