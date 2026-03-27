@@ -95,10 +95,11 @@ void ConsoleUI::PrintConsumables(const Character& p) {
     std::cout << "\n   [보유 포션 목록]\n";
     auto& inven = p.GetInventory();
     bool hasItem = false;
+    int idx = 0;
     for (size_t i = 0; i < inven.size(); ++i) {
         if (inven[i]->GetType() == ItemType::CONSUMABLE) {
             std::string tStr = (inven[i]->GetConsType() == ConsumableType::HP) ? "HP회복 " : "MP회복 ";
-            std::cout << "   " << i + 1 << ". " << inven[i]->GetName() << " (" << tStr << inven[i]->GetBonus() << ")\n";
+            std::cout << "   " << ++idx << ". " << inven[i]->GetName() << " (" << tStr << inven[i]->GetBonus() << ")\n";
             hasItem = true;
         }
     }
